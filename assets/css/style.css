@@ -1,0 +1,50 @@
+.movieCard {
+    height: 400px;
+    margin-bottom: 0;
+    background-color: #373b69;
+    overflow: hidden;
+}
+
+body {
+    background-color: #22254b;
+}
+
+.movieCard img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+figcaption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.overview.p-2 {
+    position: absolute;
+    top: 100%;
+    transition: all .4s ease-in-out;
+}
+
+.name {
+    position: absolute;
+    bottom: 0;
+    color: #000;
+    left: 0;
+    right: 0;
+    height: 90px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.movieCard:hover .overview {
+    top: 30%;
+    background-color: #fff;
+}
+.rating{
+    color: red;
+}
